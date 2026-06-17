@@ -32,7 +32,7 @@ adata_subset = sc.AnnData(
 output_path = "microglia_subset.h5ad"
 adata_subset.write(output_path)
 
-# Quick quality checks
+# Quick subset check
 print("\nAD status counts:")
 print(adata_subset.obs["AD_status"].value_counts())
 
