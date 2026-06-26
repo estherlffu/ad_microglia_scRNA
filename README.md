@@ -20,3 +20,8 @@ Download RADC_Cohort dataset here: "https://datasets.cellxgene.cziscience.com/54
 5. Clustering and Annotation
 6. Differential Expression
 7. Pathway Analysis
+
+## Citations
+SCANPY: large-scale single-cell gene expression data analysis
+F. Alexander Wolf, Philipp Angerer, Fabian J. Theis
+Genome Biology 2018 Feb 06. doi: 10.1186/s13059-017-1382-0.
