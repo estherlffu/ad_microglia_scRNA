@@ -21,7 +21,6 @@ Download RADC_Cohort dataset here: "https://datasets.cellxgene.cziscience.com/54
 6. Differential Expression
 7. Pathway Analysis
 
-## Citations
-SCANPY: large-scale single-cell gene expression data analysis
-F. Alexander Wolf, Philipp Angerer, Fabian J. Theis
-Genome Biology 2018 Feb 06. doi: 10.1186/s13059-017-1382-0.
+## References
+1. Mathys H, Davila-Velderrain J, Peng Z, et al. Single-cell transcriptomic analysis of Alzheimer's disease. Nature. 2019;570(7761):332–337. https://doi.org/10.1038/s41586-019-1195-2
+2. Wolf FA, Angerer P, Theis FJ. *SCANPY: large-scale single-cell gene expression data analysis.* Genome Biology. 2018;19:15. https://doi.org/10.1186/s13059-017-1382-0
