@@ -6,7 +6,7 @@
 This project examines the question: "How does Alzheimer's disease alter gene expression and mechanistic pathways in microglia?" by analyzing single-cell RNA-sequence data of human dorsolateral prefrontal cortex. It will explore transcriptional differences in microglia immune cells between Alzheimer's disease and control (non-Alzheimer's disease) samples.
 
 ## Dataset
-The [RADC_Cohort dataset]([url](https://cellxgene.cziscience.com/collections/84ce6837-548d-4a1f-919f-0bc0d9a3952f)) by CELLxGENE Census is a "population-scale cross-disorder atlas of the human prefrontal cortex at single-cell resolution". The full dataset consists of 693,682 cells.
+The project uses the [RADC Cohort dataset](https://cellxgene.cziscience.com/collections/84ce6837-548d-4a1f-919f-0bc0d9a3952f) hosted by CZ CELLxGENE Discover. The complete RADC dataset contains 693,682 cells, from which this project analyzes a balanced subset of 6,000 microglial cells (3,000 Alzheimer's disease and 3,000 control cells). :contentReference[oaicite:1]{index=1}
 
 The data pipeline filters the full dataset by disease (Alzheimer's disease and normal) and cell type (microglia). Due to RAM limitations, a stratified random sample of 3000 cells per group is used to produce the subset. Our final dataset consists of 6000 total cells with 34,176 genes, and 147 unique donor IDs.
 
