@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import scanpy as sc
 
 # Load data (run 01_data_pipeline.py first to generate input file)
-adata = sc.read_h5ad("microglia_subset.h5ad") 
+adata = sc.read_h5ad("data/microglia_subset.h5ad") 
 
 # Create output directory if it doesn't exist
 Path("results/qc").mkdir(parents=True, exist_ok=True)
@@ -80,7 +80,7 @@ print("\n Final dataset dimensions:")
 print(adata) # Check dimensions (6000 x 24341)
 
 # Save as new file
-output_path = "microglia_AD_qc.h5ad"
+output_path = "data/microglia_AD_qc.h5ad"
 adata.write(output_path)
 
 

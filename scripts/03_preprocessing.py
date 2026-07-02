@@ -1,7 +1,7 @@
 import scanpy as sc
 
 # Load filtered dataset from "02_quality_control.py"
-adata = sc.read_h5ad("microglia_AD_qc.h5ad")
+adata = sc.read_h5ad("data/microglia_AD_qc.h5ad")
 
 # Normalize cell counts to median
 sc.pp.normalize_total(adata, target_sum=1e4) # Counts per 10k
@@ -29,5 +29,5 @@ print(f"Dataset after HVG selection: {adata.n_obs} cells × {adata.n_vars} genes
 sc.pp.scale(adata, max_value=10) # max_value = 10 to limit effect of extreme outliers ahead of PCA
 
 # Save preprocessed dataset
-output_path = "microglia_AD_preprocessed.h5ad"
+output_path = "data/microglia_AD_preprocessed.h5ad"
 adata.write(output_path)

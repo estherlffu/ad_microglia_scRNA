@@ -29,7 +29,7 @@ adata_subset = sc.AnnData(
 )
 
 # Save dataset
-output_path = "microglia_subset.h5ad"
+output_path = "data/microglia_subset.h5ad"
 adata_subset.write(output_path)
 
 # Quick subset check
