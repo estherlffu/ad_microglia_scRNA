@@ -113,4 +113,4 @@ adata_clean.obs["annotated_cell_type"] = adata_clean.obs["leiden"].map({
 
 adata_clean.obs.to_csv("data/microglia_cluster_annotations.csv")
 
-adata_clean.write("data/microglia_final_clusters.h5ad")
+adata_clean.write("data/microglia_clusters.h5ad")
